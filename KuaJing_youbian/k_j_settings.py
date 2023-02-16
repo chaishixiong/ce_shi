@@ -1,0 +1,14 @@
+america_province_list = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming']
+# //div[@class='col-xs-12']/div/a/text()
+mexico_province_list = ['Baja California', 'Baja California Sur', 'Campeche', 'Chiapas', 'Chihuahua', 'Ciudad de México', 'Coahuila de Zaragoza', 'Colima', 'Durango', 'Guanajuato', 'Guerrero', 'Hidalgo', 'Jalisco', 'México', 'Michoacán de Ocampo', 'Morelos', 'Nayarit', 'Nuevo León', 'Oaxaca', 'Puebla', 'Querétaro', 'Quintana Roo', 'San Luis Potosí', 'Sinaloa', 'Sonora', 'Tabasco', 'Tamaulipas', 'Tlaxcala', 'Veracruz de Ignacio de la Llave', 'Yucatán', 'Zacatecas']
+canada_province_list = ['Alberta', 'British Columbia', 'Manitoba', 'New Brunswick', 'Newfoundland and Labrador', 'Northwest Territory', 'Nova Scotia', 'Nunavut Territory', 'Ontario', 'Prince Edward Island', 'Quebec', 'Saskatchewan', 'Yukon']
+
+canada_city_list = ['Airdrie', 'Calgary', 'Edmonton', 'Fort McMurray', 'Grande Prairie', 'Lethbridge', 'Medicine Hat', 'Red Deer', 'Sherwood Park', 'Spruce Grove']
+
+canada_county_list = ['Athabasca', 'Banff', 'Barrhead', 'Beaumont', 'Blackfalds', 'Bonnyville', 'Brooks', 'Camrose', 'Canmore', 'Central Alberta (Stettler)', 'Central Foothills (Sundre)', 'Chestermere', 'Coaldale', 'Cochrane', 'Cold Lake', 'Devon', 'Drayton Valley', 'Eastern Alberta (St. Paul)', 'Edson', 'Fort Saskatchewan', 'High River', 'Hinton', 'Innisfail', 'International Border Region (Cardston)', 'Kananaskis Country (Claresholm)', 'Lacombe', 'Leduc', 'Lloydminster', 'Morinville', 'North Central Alberta (Slave Lake)', 'Northeastern Alberta (Fort Chipewyan)', 'Northwestern Alberta (High Level)', 'Okotoks', 'Olds', 'Peace River', 'Ponoka', 'Redwood Meadows', 'Remote Northeast (Fitzgerald)', 'Rocky Mountain House', 'Rocky View', 'Southeastern Alberta (Drumheller)', 'St. Albert', 'Stony Plain', 'Strathmore', 'Sylvan Lake', 'Taber', 'Vegreville', 'Vermilion', 'Wainwright', 'Wainwright Region (Tofield)', 'Western Alberta (Jasper)', 'Westlock', 'Wetaskiwin', 'Whitecourt']
+
+
+brazil_list = ['Acre', 'Alagoas', 'Amapa', 'Amazonas', 'Bahia', 'Ceara', 'Distrito Federal', 'Espirito Santo', 'Goias', 'Maranhao', 'Mato Grosso', 'Mato Grosso do Sul', 'Minas Gerais', 'Para', 'Paraiba', 'Parana', 'Pernambuco', 'Piaui', 'Rio de Janeiro', 'Rio Grande do Norte', 'Rio Grande do Sul', 'Rondonia', 'Roraima', 'Santa Catarina', 'Sao Paulo', 'Sergipe', 'Tocantins']
+
+
+

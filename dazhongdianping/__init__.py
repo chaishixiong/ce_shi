@@ -1,0 +1,9 @@
+import re
+
+tex_t = '''
+@font-face{font-family: "PingFangSC-Regular-tagName";src:url("//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/3db06949.eot");src:url("//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/3db06949.eot?#iefix") format("embedded-opentype"),url("//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/3db06949.woff");} .tagName{font-family: 'PingFangSC-Regular-tagName';}@font-face{font-family: "PingFangSC-Regular-shopNum";src:url("//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/c7a515e7.eot");src:url("//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/c7a515e7.eot?#iefix") format("embedded-opentype"),url("//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/c7a515e7.woff");} .shopNum{font-family: 'PingFangSC-Regular-shopNum';}@font-face{font-family: "PingFangSC-Regular-reviewTag";src:url("//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/c7a515e7.eot");src:url("//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/c7a515e7.eot?#iefix") format("embedded-opentype"),url("//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/c7a515e7.woff");} .reviewTag{font-family: 'PingFangSC-Regular-reviewTag';}@font-face{font-family: "PingFangSC-Regular-address";src:url("//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/5843665d.eot");src:url("//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/5843665d.eot?#iefix") format("embedded-opentype"),url("//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/5843665d.woff");} .address{font-family: 'PingFangSC-Regular-address';}
+'''
+
+url_list = re.findall(r',url\("(.*?)"\);', tex_t)
+for i in url_list:
+    print(i)

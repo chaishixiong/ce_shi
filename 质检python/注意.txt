@@ -1,0 +1,6 @@
+需要在后台运行python_start.bat,请执行“run_background.vbs”
+通过浏览器访问http://${python_json.py中配置的ip}:${python_json.py中配置的端口}/clothWaterWash，查看是否获取成功。
+如需要关闭，则通过命令行执行netstat -ano |findstr 3307，找到处于LISTENING状态的进程的PID
+tskill ${pid}将其关闭
+
+
